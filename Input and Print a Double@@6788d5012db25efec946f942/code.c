@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-double a;
-scanf("%lf",&a);
-// l is use for double
-printf("You entered: %lf",a);
+float a;
+scanf("%.4f",&a);
+
+printf("You entered: %.4f",a);
 
 }

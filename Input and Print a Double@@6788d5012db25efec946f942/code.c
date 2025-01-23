@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-float a;
+double a;
 scanf("%lf",&a);
 // l is use for double
 printf("You entered: %lf",a);

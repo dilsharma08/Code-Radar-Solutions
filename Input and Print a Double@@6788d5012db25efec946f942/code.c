@@ -2,7 +2,8 @@
 
 int main() {
 float a;
-scanf("%f",&a);
-printf("You entered: %.4f",a);
+scanf("%lf",&a);
+// l is use for double
+printf("You entered: %lf",a);
 
 }

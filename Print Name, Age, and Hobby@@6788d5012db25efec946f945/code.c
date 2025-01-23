@@ -8,8 +8,7 @@ scanf("%d",age);
 char hobby[100];
 scanf("%c",hobby);
 
-printf("Name: %s\n",name);
-printf("Age: %d\n",age);
-printf("Hobby: %s\n",hobby);
+printf("Name: %s\nAge : %d\nHobby: %s",name,age,hobby);
+
 
 }

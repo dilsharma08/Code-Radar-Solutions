@@ -2,7 +2,7 @@
 
 int main(){
     char a;
-    sacnf("%c",&a);
+    scanf("%c",&a);
 if(c>='a' && c<='z'){
     printf("Lowercase");
 }

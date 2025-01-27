@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    char c;
-    scanf("%c",&c);
-if(c>='a' && c<='z'){
+    char ch;
+    scanf("%c",&ch);
+if(ch>='a' && ch<='z'){
     printf("Lowercase");
 }
 else{

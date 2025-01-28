@@ -6,7 +6,7 @@ int main(){
     if((a<b+c)|| (b<a+c) || (c<a+b)){
         printf("Valid");
     }
-    else if((a=b+c) || (b=a+c)|| (c=a+b)){
+    else if((a=b+c) &&(b=a+c)&& (c=a+b)){
         printf("Invalid");
     }
     else{

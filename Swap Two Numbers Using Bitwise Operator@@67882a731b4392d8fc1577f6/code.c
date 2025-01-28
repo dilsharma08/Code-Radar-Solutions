@@ -6,5 +6,6 @@ int main(){
     a=temp;
     a=b;
     b=temp;
-    printf("%d%d",a,b);
+    printf("%d",a);
+    printf("%d",b);
 }

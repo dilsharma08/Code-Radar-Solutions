@@ -2,9 +2,8 @@
 
 int main() {
    int num;
-   scanf("%d",&nu,);
-
-  if(num==0) {
+   scanf("%d",&num);
+  if(num=0) {
     printf("Out of Range");
   }
 else if(num>=1 && num<=100){

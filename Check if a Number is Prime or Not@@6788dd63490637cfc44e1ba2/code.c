@@ -7,7 +7,7 @@ int main(){
         printf("Prime");
     }
     else{
-        printf("NotPrime");
+        printf("Not Prime");
     }
 }
 }

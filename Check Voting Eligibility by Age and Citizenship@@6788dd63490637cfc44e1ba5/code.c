@@ -9,4 +9,5 @@ if(a>=18 && b==1){
 else {
     printf("Not Eligible");
 }
+return 0;
     }

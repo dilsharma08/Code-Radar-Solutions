@@ -18,7 +18,7 @@ printf("%d",a*b);
 break ;
 
 case '/':
-printf("%d",a/b);
+printf("%f",a/b);
 break;
    }
 }

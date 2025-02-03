@@ -6,23 +6,19 @@ int main(){
     scanf("%d %d %c",&a,&b,&res);
     switch(res){
     case '+':
-    int sum =a+b;
-    printf("%d",sum);
+    printf("%d",a+b);
 break;
 
 case '-':
-int sub =a-b ;
-printf("%d",sub);
+printf("%d",a-b);
 break ;
 
 case '*':
-int mul=a*b;
-printf("%d",mul);
+printf("%d",a*b);
 break ;
 
 case '/':
-div=a/b;
-printf("%d",div);
+printf("%d",a/b);
 break;
    }
 }

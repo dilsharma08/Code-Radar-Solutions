@@ -7,6 +7,6 @@ if((a>0 && b>0)||(a<0 && a<b)){
     printf("Same Sign");
 }
 else{
-    printf("Same Sign");
+    printf("Different Sign");
 }
 }

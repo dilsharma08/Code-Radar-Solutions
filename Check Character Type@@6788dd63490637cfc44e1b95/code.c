@@ -6,7 +6,7 @@ int main(){
 if(a>='0' && a<='9'){
     printf("Digit\n");
 }
-else if((a>='a') &&( a<='z')||(a>='A') && (a<='Z'))
+else if((a>='a' && a<='z')||(a>='A' && a<='Z'))
 {
     printf("Consonant\n")
 }

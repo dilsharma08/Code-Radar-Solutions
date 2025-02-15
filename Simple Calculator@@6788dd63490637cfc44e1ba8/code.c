@@ -15,6 +15,7 @@ switch(op){
        else{
         printf("error");
        }
+       break;
 
 }
 }

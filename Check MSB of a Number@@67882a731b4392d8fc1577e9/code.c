@@ -9,9 +9,9 @@ int main() {
     int msb = 1 << (bits - 1);   // Left shift 1 to the MSB position
 
     if (num & msb) {
-        printf("MSB is set (1)\n");
+        printf("Set");
     } else {
-        printf("MSB is not set (0)\n");
+        printf("Not Set");
     }
 
     return 0;

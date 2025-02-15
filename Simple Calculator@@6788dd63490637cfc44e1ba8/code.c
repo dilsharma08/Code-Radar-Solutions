@@ -5,10 +5,15 @@ int main(){
         char ch;
         scanf("%c",&ch);
         switch(ch){
-        case '+':printf("%d",a+b);break;
-        case '-':printf("%d",a-b);break;
-        case '*':printf("%d",a*b);break;
-        case '/':printf("%d",a/b);break;
+        case '+':
+        int res=a+b;printf("%d",res);break;
+        case '-':
+        int res=a-b;printf("%d",res);break;
+        case '*':
+        int res=a*b;printf("%d",res);break;
+
+        case '/':
+       int  res=a/b;printf("%d",res);break;
      
 
         }

@@ -1,63 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+        int a,b;
+        scanf("%d %d",&a,&b);
+        char ch;
+        scanf("%c",&ch);
+        switch(c){
+        case '+':printf("%d",a+b);break;
+        case '-':printf("%d",a-b);break;
+        case '*':printf("%d",a*b);break;
+        case '/':printf("%d",a/b);break;
+        default:
+        printf("Not");
 
-int main() {
-    int a, b;
-        char res;
-            
-                // Taking input
-                    scanf("%d %d %c", &a, &b, &res);
-                        
-                            // Switch statement for different operations
-                                switch (res) {
-                                        case '+':
-                                                    printf("%d\n", a + b);
-                                                                break;
-                                                                        case '-':
-                                                                                    printf("%d\n", a - b);
-                                                                                                break;
-                                                                                                        case '*':
-                                                                                                                    printf("%d\n", a * b);
-                                                                                                                                break;
-                                                                                                                                        case '/':
-                                                                                                                                                    if (b != 0)  // Check to prevent division by zero
-                                                                                                                                                                    printf("%d\n", a / b);
-                                                                                                                                                                                else
-                                                                                                                                                                                                printf("Error: Division by zero\n");
-                                                                                                                                                                                                            break;
-                                                                                                                                                                                                                    default:
-                                                                                                                                                                                                                                printf("Invalid operator\n");
-                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                        
-                                                                                                                                                                                                                                            return 0;
-                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                            #include <stdio.h>
+        }
 
-                                                                                                                                                                                                                                            int main() {
-                                                                                                                                                                                                                                                int a, b;
-                                                                                                                                                                                                                                                    char res;
-                                                                                                                                                                                                                                                        
-                                                                                                                                                                                                                                                            // Taking input
-                                                                                                                                                                                                                                                                scanf("%d %d %c", &a, &b, &res);
-                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                        // Switch statement for different operations
-                                                                                                                                                                                                                                                                            switch (res) {
-                                                                                                                                                                                                                                                                                    case '+':
-                                                                                                                                                                                                                                                                                                printf("%d\n", a + b);
-                                                                                                                                                                                                                                                                                                            break;
-                                                                                                                                                                                                                                                                                                                    case '-':
-                                                                                                                                                                                                                                                                                                                                printf("%d\n", a - b);
-                                                                                                                                                                                                                                                                                                                                            break;
-                                                                                                                                                                                                                                                                                                                                                    case '*':
-                                                                                                                                                                                                                                                                                                                                                                printf("%d\n", a * b);
-                                                                                                                                                                                                                                                                                                                                                                            break;
-                                                                                                                                                                                                                                                                                                                                                                                    case '/':
-                                                                                                                                                                                                                                                                                                                                                                                                if (b != 0)  // Check to prevent division by zero
-                                                                                                                                                                                                                                                                                                                                                                                                                printf("%d\n", a / b);
-                                                                                                                                                                                                                                                                                                                                                                                                                            else
-                                                                                                                                                                                                                                                                                                                                                                                                                                            printf("Error: Division by zero\n");
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        break;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                default:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            printf("Invalid operator\n");
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        return
+
+}

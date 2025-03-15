@@ -1,6 +1,6 @@
 #include<stdio.h>
-int fibonacciSeries(int x);
-int fibonacciSeries(int n){
+
+int fibonacciSeries(n){
     if(n==1){
         return 0;
     }

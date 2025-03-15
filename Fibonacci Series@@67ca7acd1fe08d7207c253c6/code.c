@@ -11,11 +11,11 @@ int fibonacciSeries(int x){
         return fibonacciSeries(x-1)+fib(x-2);
     }
 }
-int main(){
-    int t;
-    scanf("%d",&t);
-    for(int i=0; i<t;i++){
-        printf("%d",fib(i));
-    }
-}
+// int main(){
+//     int t;
+//     scanf("%d",&t);
+//     for(int i=0; i<t;i++){
+//         printf("%d",fib(i));
+//     }
+// }
 

@@ -13,7 +13,7 @@ int fib(int x){
 }
 int main(){
     int t;
-    scanf("%d",t)
+    scanf("%d",&t)
     for(int i=0; i<t;i++){
         printf("%d",fib(i));
     }

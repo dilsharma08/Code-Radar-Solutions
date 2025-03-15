@@ -8,7 +8,7 @@ int fib(int x){
         return 0;
     }
     else{
-        return fib(a-1)+fib(a-2);
+        return fib(x-1)+fib(x-2);
     }
 }
 int main(){

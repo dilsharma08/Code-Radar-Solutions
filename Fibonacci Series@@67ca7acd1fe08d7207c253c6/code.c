@@ -8,7 +8,7 @@ int fibonacciSeries(int x){
         return 0;
     }
     else{
-        return fibonacciSeries(x-1)+fib(x-2);
+        return fibonacciSeries(x-1)+fibonacciSeries(x-2);
     }
 }
 // int main(){
